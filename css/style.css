@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #181d22;
+    font-family: 'Staatliches', Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 3px;
+}
+a{
+    color: azure;
+    padding-left: 30px;
+}
+.collapse{
+    justify-content: flex-end;
+    text-align: center;
+}
+.active{
+    background-color: azure;
+}
+.active > a{
+    color: black;
+}
+a:hover{
+    color: burlywood;
+}
+ul > li{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main{
+    text-align: -webkit-center;
+    padding: 5px;
+}
+.main-body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.jumbotron {
+    padding: 0px;
+}
+.box{
+    width: 40%;
+    height: auto;
+    padding: 50px;
+    margin: 40px;
+    background-color: darkgrey;
+}
+.vermi{
+    background-color: darkgrey;
+    height: 400px;
+    width: auto;
+    margin: 40px;
+}
+.foot{
+    background-color: #181d22;
+    text-align: center;
+    color: darkgrey;
+    font-size: 16px;
+    padding: 5px;
+    clear: both;
+}
+.round{
+    background-image: url("images/2.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline-block;
+}
