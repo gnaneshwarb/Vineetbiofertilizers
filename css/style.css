@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+.navbar {
+    background-color: #181d22;
+    font-family: 'Staatliches', Courier, monospace;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 3px;
+}
+.jumbotron{
+	background-color: #ffffff;
+	padding-bottom: 1em;
+}
+a{
+    color: azure;
+    padding-left: 30px;
+}
+.collapse{
+    justify-content: flex-end;
+    text-align: center;
+}
+.active{
+    background-color: azure;
+}
+.active > a{
+    color: black;
+}
+a:hover{
+    color: burlywood;
+}
+ul > li{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+table{
+	width:100%;
+	padding: 40px;
+}
+td{
+	padding-right:40px;
+	padding-bottom:20px;
+}
+.des{
+	text-align: justify;
+}
+table.prod{
+	padding:40px;
+}
+.main-body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box{
+	width: auto;
+	padding: 40px;
+	text-align: center;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+.end{
+    background-color: #08090a;
+    text-align: center;
+    color: darkgrey;
+    font-size: 0.6em;
+    padding: 5px;
+    clear: both;
+}
+.spacer{
+    height: 50px;
+}
