@@ -8,6 +8,15 @@
     letter-spacing: 1px;
     padding: 3px;
 }
+.navbar-dark .navbar-toggler{
+    border: 1px solid white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+}
 .jumbotron{
 	background-color: #ffffff;
 	padding-bottom: 1em;
@@ -27,7 +36,7 @@ a{
     color: black;
 }
 a:hover{
-    color: burlywood;
+    color: beige;
 }
 ul > li{
     padding-right: 15px;
@@ -53,11 +62,17 @@ table.prod{
 }
 .box{
 	width: auto;
-	padding: 40px;
-	text-align: center;
-	font-family: 'Overpass Mono', monospace;
-	font-size: 1.5em;
-	font-weight:bold;
+    text-align: center;
+}
+.names{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1.5em;
+    font-weight:bold;
+    color: black;
+    padding: 0px;
+}
+.box a:hover{
+    color: grey;
 }
 .end{
     background-color: #08090a;
