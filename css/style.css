@@ -1,9 +1,25 @@
+*{
+	box-sizing: border-box;
+}
 .navbar {
     background-color: #181d22;
     font-family: 'Staatliches', Courier, monospace;
     font-size: 1.2em;
     letter-spacing: 1px;
     padding: 3px;
+}
+.navbar-dark .navbar-toggler{
+    border: 1px solid white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+}
+.jumbotron{
+	background-color: #ffffff;
+	padding-bottom: 1em;
 }
 a{
     color: azure;
@@ -20,29 +36,50 @@ a{
     color: black;
 }
 a:hover{
-    color: burlywood;
+    color: beige;
 }
 ul > li{
     padding-right: 15px;
     padding-left: 15px;
 }
-
+table{
+	width:100%;
+	padding: 40px;
+    font-size: 1em;
+}
+td{
+	padding-right:40px;
+	padding-bottom:20px;
+}
+.des{
+	text-align: justify;
+}
+table.prod{
+	padding:40px;
+}
 .main-body{
     margin-left: 50px;
     margin-right: 50px;
 }
 .box{
-    width: 40%;
-    height: auto;
-    padding: 50px;
-    margin: 40px;
-    background-color: darkgrey;
+	width: auto;
+    text-align: center;
 }
-.foot{
+.names{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1.5em;
+    font-weight:bold;
+    color: black;
+    padding: 0px;
+}
+.box a:hover{
+    color: grey;
+}
+.end{
     background-color: #08090a;
     text-align: center;
     color: darkgrey;
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding: 5px;
     clear: both;
 }
