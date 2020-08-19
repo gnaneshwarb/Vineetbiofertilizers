@@ -87,8 +87,8 @@ table.prod{
     height: 50px;
 }
 
-@media (max-width: 920px){
+@media only screen and (min-width: 393px) and (max-width: 767px) {
 body, nav{
-    width: 720px;
+    width: auto;
 }
 }
