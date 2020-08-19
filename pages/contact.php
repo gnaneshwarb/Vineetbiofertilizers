@@ -6,7 +6,7 @@ if (isset($_POST['name']) && isset($_POST['message'])) {
 	$message = $_POST['message'];
 	$to = 'gnaneshwar.bandari07@gmail.com';
 	$subject = 'new message';
-	$body = .$message;
+	$body = $message;
 
 	$headers = "From:".$name."$message".">\r\n";
 	$headers .=  "Reply-To: ".$message."\r\n";
