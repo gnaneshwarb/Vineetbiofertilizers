@@ -86,3 +86,13 @@ table.prod{
 .spacer{
     height: 50px;
 }
+
+.fixed-top{
+    width: inherit;
+}
+@media (max-width: 920px){
+.navbar-brand {
+    font-size: 2em;
+    letter-spacing: 2.5px;
+}
+}
