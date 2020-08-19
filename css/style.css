@@ -45,6 +45,7 @@ ul > li{
 table{
 	width:100%;
 	padding: 40px;
+    font-size: 1em;
 }
 td{
 	padding-right:40px;
