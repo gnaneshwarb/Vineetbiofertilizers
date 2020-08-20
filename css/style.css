@@ -38,14 +38,21 @@ a{
 a:hover{
     color: beige;
 }
+h1{
+    font-size: 3vw;
+}
 ul > li{
     padding-right: 15px;
     padding-left: 15px;
 }
-table{
+.tab{
 	width:100%;
 	padding: 40px;
+<<<<<<< HEAD
     font-size: 1.5vw;
+=======
+    font-size: 1em;
+>>>>>>> b77073a0df5536703f69d45ac383251e0d90d561
 }
 td{
 	padding-right:40px;
@@ -95,13 +102,22 @@ table.prod{
     height: 50px;
 }
 
-.fixed-top{
-    width: inherit;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+body, nav{
+    width: auto;
 }
+.tab{
+    font-size: 0.5em;
+}
+<<<<<<< HEAD
 @media (max-width: 920px){
 .navbar-brand{
     font-size: 1.2em;
     letter-spacing: 2.5px;
+=======
+.display-4{
+    font-size: 2.5rem;
+>>>>>>> b77073a0df5536703f69d45ac383251e0d90d561
 }
 h1,h4 {
     font-size: 1.4em;
